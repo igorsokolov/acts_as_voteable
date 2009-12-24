@@ -9,6 +9,11 @@ Install
  * Run the following command:
  script/plugin install http://juixe.com/svn/acts_as_voteable
  
+ * Generate migration: 
+ script/generate acts_as_voteable_migration 
+ 
+ * or 
+ 
  * Create a new rails migration and add the following self.up and self.down methods
  
   def self.up
